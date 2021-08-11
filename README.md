@@ -1,5 +1,8 @@
 # Frontend Mentor - Order summary card
 
+
+# Live demo  - https://order-summary-component-rosy.vercel.app/
+
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
