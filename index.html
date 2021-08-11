@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 10%;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .card {
+        width: 400px;
+        height: 600px;
+        background-color: #fff;
+        margin: auto;
+        margin-top: 100px !important;
+        border-radius: 10px;
+      }
+
+      body {
+        background-color: #e0e8fe;
+      }
+
+      .card > .card__image {
+        height: 220px;
+        width: auto;
+        border-radius: 10px;
+        background-image: url("images/illustration-hero.svg");
+      }
+
+      .card__content {
+        text-align: center;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+
+      .price__annual {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F9F8FD;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+      }
+      .price__container {
+        text-align: start;
+      }
+      .payment__button {
+        width: auto;
+        height: 50px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 10px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex; 
+        background-color: #382AE1;
+        box-shadow: 5px 5px 2.5px #DCD8FA;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card__image"></div>
+      <div class="card__content">
+        <h3>Order Summary</h3>
+        <p style="margin: 20px; color: #aaa4a4 !important">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+
+        <div class="price__annual">
+          <img
+            src="images/icon-music.svg"
+            style="width: 50px; height: 50px"
+            alt=""
+            srcset=""
+          />
+          <div class="price__container">
+            <h4 style="margin-left: 10px">Annual Plan</h4>
+            <p style="margin-left: 10px; margin-top: -10px;">$59.99/year</p>
+          </div>
+          
+          <a style="margin-left: 100px;" href="">Change</a>
+
+          
+
+        </div>
+        <br>
+        <div class="payment__button">
+          <h4>Proceed to Payment</h4>
+        </div>
+        <p style="color: #a9a6c6;">Cancel Order</p>
+      </div>
+    </div>
+
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ashish Kumar Verma</a>.
+    </div>
+  </body>
+</html>
